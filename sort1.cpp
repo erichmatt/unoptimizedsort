@@ -12,9 +12,12 @@ for (int i = 0; i < 20; i++)
 {
 cout <<unsortedlist[i] << ',';
 }
+cout << '\n';
 }
 
 int main()
 {
+printlist();
+swap (unsortedlist [0], unsortedlist[1]);
 printlist();
 }
