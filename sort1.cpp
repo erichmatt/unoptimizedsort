@@ -28,6 +28,7 @@ int sort()
         printlist();
         }    
     }
+    cout << "loop \n";
     return done;
 }
 int main()
