@@ -22,7 +22,7 @@ i=0;
 while(x == 0){
 swap();
 }
-for(i;i<4;i++){
+for(i;i<7;i++){
 printf("%d,",tbs[i]);
 }
 }
