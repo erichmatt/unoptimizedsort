@@ -26,14 +26,14 @@ void bubble_sort(int x[]) {
     
   }
   i++;
-  if (i == r-1) i = 0;
+  if (i == r - 1) i = 0;
 }
 
 void draw() {
   background(0);
   for (int x = 0; x < r; x++) {
     fill(0, 100, 200);
-    ellipse(max*x+(max/2), 250, data[x], data[x]);
+    ellipse(max * x + (max / 2), 250, data[x], data[x]);
   }
   bubble_sort(data);
   delay(50);
